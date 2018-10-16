@@ -1,0 +1,20 @@
+use_frameworks!
+
+source 'https://github.com/media-net/mnet-pod-specs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'MNetAdSdk_Example' do
+  pod 'MNetAdSdk', :path => '../'
+  pod 'MBProgressHUD'
+  pod 'Toast', '~> 3.1.0'
+  pod 'Google-Mobile-Ads-SDK', '~> 7.25'  
+  pod 'Firebase/Core', '4.13.0'
+  pod 'Firebase/AdMob', '4.13.0'
+  pod 'mopub-ios-sdk', '~> 4.12.0'  
+  
+  target 'MNetAdSdk_Tests' do
+    inherit! :search_paths
+    pod 'Nocilla'
+  end
+  
+end

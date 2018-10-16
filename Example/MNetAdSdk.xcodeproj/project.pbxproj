@@ -1,0 +1,714 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5AD5D0FE0A3E20B0374D320A /* Pods_MNetAdSdk_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61962EDF97E7A858DDCFA46F /* Pods_MNetAdSdk_Example.framework */; };
+		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
+		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
+		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
+		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
+		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
+		6003F59E195388D20070C39A /* MNetAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* MNetAppDelegate.m */; };
+		6003F5A7195388D20070C39A /* MNetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* MNetViewController.m */; };
+		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
+		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
+		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
+		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
+		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
+		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		8A3D60F52175E97E00D77633 /* MNetRequestExtractorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3D60F42175E97E00D77633 /* MNetRequestExtractorTests.m */; };
+		8A84087B215B7D7D00ED368B /* MNetBannerAdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A84087A215B7D7D00ED368B /* MNetBannerAdTests.m */; };
+		8A84087E215B829900ED368B /* MNetTestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A84087D215B829900ED368B /* MNetTestManager.m */; };
+		8A840881215B85BA00ED368B /* XCTest+MNetTestUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A840880215B85BA00ED368B /* XCTest+MNetTestUtil.m */; };
+		8A840884215B879B00ED368B /* adResponseBanner320x50.json in Resources */ = {isa = PBXBuildFile; fileRef = 8A840883215B879B00ED368B /* adResponseBanner320x50.json */; };
+		8A840886215B99EA00ED368B /* MNetSdkConfigResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 8A840885215B99EA00ED368B /* MNetSdkConfigResponse.json */; };
+		8A840888215B9AB100ED368B /* MNetPredictBidsRelayResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 8A840887215B9AB100ED368B /* MNetPredictBidsRelayResponse.json */; };
+		8A84088A215BB8B800ED368B /* MNetInvalidAdSizeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A840889215BB8B800ED368B /* MNetInvalidAdSizeTests.m */; };
+		8A84088C215BB9F700ED368B /* adResponseWithInvalidSize.json in Resources */ = {isa = PBXBuildFile; fileRef = 8A84088B215BB9F700ED368B /* adResponseWithInvalidSize.json */; };
+		8A84088E215BBB5B00ED368B /* noAdResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 8A84088D215BBB5B00ED368B /* noAdResponse.json */; };
+		8A840890215BBB8E00ED368B /* MNetBannerFailTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A84088F215BBB8E00ED368B /* MNetBannerFailTests.m */; };
+		8A8D68352154E5BA00D86287 /* MNetDemoConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8D68342154E5BA00D86287 /* MNetDemoConstants.m */; };
+		8A8D68382154F3B600D86287 /* MNetShowAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8D68372154F3B600D86287 /* MNetShowAdViewController.m */; };
+		D47F65E62CA69B5982B77B82 /* Pods_MNetAdSdk_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6181905B9294F5A271C00AB9 /* Pods_MNetAdSdk_Tests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6003F5B3195388D20070C39A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6003F582195388D10070C39A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6003F589195388D20070C39A;
+			remoteInfo = MNetAdSdk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A7EDDFEEA954DB7545FD721 /* MNetAdSdk.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MNetAdSdk.podspec; path = ../MNetAdSdk.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		462F5E5570BFE31365B99512 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		59F4561C5D22248238F726C8 /* Pods-MNetAdSdk_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MNetAdSdk_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MNetAdSdk_Example/Pods-MNetAdSdk_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6003F58A195388D20070C39A /* MNetAdSdk_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MNetAdSdk_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6003F595195388D20070C39A /* MNetAdSdk-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MNetAdSdk-Info.plist"; sourceTree = "<group>"; };
+		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6003F59B195388D20070C39A /* MNetAdSdk-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MNetAdSdk-Prefix.pch"; sourceTree = "<group>"; };
+		6003F59C195388D20070C39A /* MNetAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNetAppDelegate.h; sourceTree = "<group>"; };
+		6003F59D195388D20070C39A /* MNetAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MNetAppDelegate.m; sourceTree = "<group>"; };
+		6003F5A5195388D20070C39A /* MNetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNetViewController.h; sourceTree = "<group>"; };
+		6003F5A6195388D20070C39A /* MNetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MNetViewController.m; sourceTree = "<group>"; };
+		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6003F5AE195388D20070C39A /* MNetAdSdk_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MNetAdSdk_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
+		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
+		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		6181905B9294F5A271C00AB9 /* Pods_MNetAdSdk_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MNetAdSdk_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61962EDF97E7A858DDCFA46F /* Pods_MNetAdSdk_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MNetAdSdk_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81BBEE6B75CC5B8DAE0E777A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8A3D60F42175E97E00D77633 /* MNetRequestExtractorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MNetRequestExtractorTests.m; sourceTree = "<group>"; };
+		8A84087A215B7D7D00ED368B /* MNetBannerAdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MNetBannerAdTests.m; sourceTree = "<group>"; };
+		8A84087C215B829900ED368B /* MNetTestManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNetTestManager.h; sourceTree = "<group>"; };
+		8A84087D215B829900ED368B /* MNetTestManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MNetTestManager.m; sourceTree = "<group>"; };
+		8A84087F215B85BA00ED368B /* XCTest+MNetTestUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XCTest+MNetTestUtil.h"; sourceTree = "<group>"; };
+		8A840880215B85BA00ED368B /* XCTest+MNetTestUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "XCTest+MNetTestUtil.m"; sourceTree = "<group>"; };
+		8A840883215B879B00ED368B /* adResponseBanner320x50.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = adResponseBanner320x50.json; sourceTree = "<group>"; };
+		8A840885215B99EA00ED368B /* MNetSdkConfigResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MNetSdkConfigResponse.json; sourceTree = "<group>"; };
+		8A840887215B9AB100ED368B /* MNetPredictBidsRelayResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MNetPredictBidsRelayResponse.json; sourceTree = "<group>"; };
+		8A840889215BB8B800ED368B /* MNetInvalidAdSizeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MNetInvalidAdSizeTests.m; sourceTree = "<group>"; };
+		8A84088B215BB9F700ED368B /* adResponseWithInvalidSize.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = adResponseWithInvalidSize.json; sourceTree = "<group>"; };
+		8A84088D215BBB5B00ED368B /* noAdResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = noAdResponse.json; sourceTree = "<group>"; };
+		8A84088F215BBB8E00ED368B /* MNetBannerFailTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MNetBannerFailTests.m; sourceTree = "<group>"; };
+		8A8D68332154E5BA00D86287 /* MNetDemoConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNetDemoConstants.h; sourceTree = "<group>"; };
+		8A8D68342154E5BA00D86287 /* MNetDemoConstants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MNetDemoConstants.m; sourceTree = "<group>"; };
+		8A8D68362154F3B600D86287 /* MNetShowAdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNetShowAdViewController.h; sourceTree = "<group>"; };
+		8A8D68372154F3B600D86287 /* MNetShowAdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MNetShowAdViewController.m; sourceTree = "<group>"; };
+		8EC663CF601042846FAFEB74 /* Pods-MNetAdSdk_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MNetAdSdk_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MNetAdSdk_Tests/Pods-MNetAdSdk_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C8EE8919AF0563875A805EC7 /* Pods-MNetAdSdk_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MNetAdSdk_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MNetAdSdk_Example/Pods-MNetAdSdk_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D5C7251E336B4A25DB174D4C /* Pods-MNetAdSdk_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MNetAdSdk_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MNetAdSdk_Tests/Pods-MNetAdSdk_Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6003F587195388D20070C39A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
+				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
+				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
+				5AD5D0FE0A3E20B0374D320A /* Pods_MNetAdSdk_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6003F5AB195388D20070C39A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
+				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
+				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
+				D47F65E62CA69B5982B77B82 /* Pods_MNetAdSdk_Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		158A39B627374A31382B3911 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				59F4561C5D22248238F726C8 /* Pods-MNetAdSdk_Example.debug.xcconfig */,
+				C8EE8919AF0563875A805EC7 /* Pods-MNetAdSdk_Example.release.xcconfig */,
+				8EC663CF601042846FAFEB74 /* Pods-MNetAdSdk_Tests.debug.xcconfig */,
+				D5C7251E336B4A25DB174D4C /* Pods-MNetAdSdk_Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6003F581195388D10070C39A = {
+			isa = PBXGroup;
+			children = (
+				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
+				6003F593195388D20070C39A /* Example for MNetAdSdk */,
+				6003F5B5195388D20070C39A /* Tests */,
+				6003F58C195388D20070C39A /* Frameworks */,
+				6003F58B195388D20070C39A /* Products */,
+				158A39B627374A31382B3911 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		6003F58B195388D20070C39A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6003F58A195388D20070C39A /* MNetAdSdk_Example.app */,
+				6003F5AE195388D20070C39A /* MNetAdSdk_Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6003F58C195388D20070C39A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6003F58D195388D20070C39A /* Foundation.framework */,
+				6003F58F195388D20070C39A /* CoreGraphics.framework */,
+				6003F591195388D20070C39A /* UIKit.framework */,
+				6003F5AF195388D20070C39A /* XCTest.framework */,
+				61962EDF97E7A858DDCFA46F /* Pods_MNetAdSdk_Example.framework */,
+				6181905B9294F5A271C00AB9 /* Pods_MNetAdSdk_Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6003F593195388D20070C39A /* Example for MNetAdSdk */ = {
+			isa = PBXGroup;
+			children = (
+				6003F59C195388D20070C39A /* MNetAppDelegate.h */,
+				6003F59D195388D20070C39A /* MNetAppDelegate.m */,
+				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
+				6003F5A5195388D20070C39A /* MNetViewController.h */,
+				6003F5A6195388D20070C39A /* MNetViewController.m */,
+				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
+				6003F5A8195388D20070C39A /* Images.xcassets */,
+				6003F594195388D20070C39A /* Supporting Files */,
+				8A8D68332154E5BA00D86287 /* MNetDemoConstants.h */,
+				8A8D68342154E5BA00D86287 /* MNetDemoConstants.m */,
+				8A8D68362154F3B600D86287 /* MNetShowAdViewController.h */,
+				8A8D68372154F3B600D86287 /* MNetShowAdViewController.m */,
+			);
+			name = "Example for MNetAdSdk";
+			path = MNetAdSdk;
+			sourceTree = "<group>";
+		};
+		6003F594195388D20070C39A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6003F595195388D20070C39A /* MNetAdSdk-Info.plist */,
+				6003F596195388D20070C39A /* InfoPlist.strings */,
+				6003F599195388D20070C39A /* main.m */,
+				6003F59B195388D20070C39A /* MNetAdSdk-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6003F5B5195388D20070C39A /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8A840882215B876A00ED368B /* TestAssets */,
+				6003F5BB195388D20070C39A /* Tests.m */,
+				6003F5B6195388D20070C39A /* Supporting Files */,
+				8A84087A215B7D7D00ED368B /* MNetBannerAdTests.m */,
+				8A84087C215B829900ED368B /* MNetTestManager.h */,
+				8A84087D215B829900ED368B /* MNetTestManager.m */,
+				8A84087F215B85BA00ED368B /* XCTest+MNetTestUtil.h */,
+				8A840880215B85BA00ED368B /* XCTest+MNetTestUtil.m */,
+				8A840889215BB8B800ED368B /* MNetInvalidAdSizeTests.m */,
+				8A84088F215BBB8E00ED368B /* MNetBannerFailTests.m */,
+				8A3D60F42175E97E00D77633 /* MNetRequestExtractorTests.m */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		6003F5B6195388D20070C39A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6003F5B7195388D20070C39A /* Tests-Info.plist */,
+				6003F5B8195388D20070C39A /* InfoPlist.strings */,
+				606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				3A7EDDFEEA954DB7545FD721 /* MNetAdSdk.podspec */,
+				81BBEE6B75CC5B8DAE0E777A /* README.md */,
+				462F5E5570BFE31365B99512 /* LICENSE */,
+			);
+			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		8A840882215B876A00ED368B /* TestAssets */ = {
+			isa = PBXGroup;
+			children = (
+				8A840883215B879B00ED368B /* adResponseBanner320x50.json */,
+				8A840885215B99EA00ED368B /* MNetSdkConfigResponse.json */,
+				8A840887215B9AB100ED368B /* MNetPredictBidsRelayResponse.json */,
+				8A84088B215BB9F700ED368B /* adResponseWithInvalidSize.json */,
+				8A84088D215BBB5B00ED368B /* noAdResponse.json */,
+			);
+			name = TestAssets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6003F589195388D20070C39A /* MNetAdSdk_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "MNetAdSdk_Example" */;
+			buildPhases = (
+				0609F4B259EBCA25CAFB149A /* [CP] Check Pods Manifest.lock */,
+				6003F586195388D20070C39A /* Sources */,
+				6003F587195388D20070C39A /* Frameworks */,
+				6003F588195388D20070C39A /* Resources */,
+				CA9102C24C9342E010F6C126 /* [CP] Embed Pods Frameworks */,
+				8AADA8BF2167417400F6F8D9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MNetAdSdk_Example;
+			productName = MNetAdSdk;
+			productReference = 6003F58A195388D20070C39A /* MNetAdSdk_Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6003F5AD195388D20070C39A /* MNetAdSdk_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "MNetAdSdk_Tests" */;
+			buildPhases = (
+				36019DB2E8893DEA2B3657D7 /* [CP] Check Pods Manifest.lock */,
+				6003F5AA195388D20070C39A /* Sources */,
+				6003F5AB195388D20070C39A /* Frameworks */,
+				6003F5AC195388D20070C39A /* Resources */,
+				982AC3B104B29CA5608B7CE6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6003F5B4195388D20070C39A /* PBXTargetDependency */,
+			);
+			name = MNetAdSdk_Tests;
+			productName = MNetAdSdkTests;
+			productReference = 6003F5AE195388D20070C39A /* MNetAdSdk_Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6003F582195388D10070C39A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MNet;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = kunal5692;
+				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = PF48527554;
+					};
+					6003F5AD195388D20070C39A = {
+						TestTargetID = 6003F589195388D20070C39A;
+					};
+				};
+			};
+			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "MNetAdSdk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6003F581195388D10070C39A;
+			productRefGroup = 6003F58B195388D20070C39A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6003F589195388D20070C39A /* MNetAdSdk_Example */,
+				6003F5AD195388D20070C39A /* MNetAdSdk_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6003F588195388D20070C39A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6003F5AC195388D20070C39A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A84088C215BB9F700ED368B /* adResponseWithInvalidSize.json in Resources */,
+				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
+				8A840884215B879B00ED368B /* adResponseBanner320x50.json in Resources */,
+				8A840888215B9AB100ED368B /* MNetPredictBidsRelayResponse.json in Resources */,
+				8A84088E215BBB5B00ED368B /* noAdResponse.json in Resources */,
+				8A840886215B99EA00ED368B /* MNetSdkConfigResponse.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0609F4B259EBCA25CAFB149A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MNetAdSdk_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36019DB2E8893DEA2B3657D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MNetAdSdk_Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AADA8BF2167417400F6F8D9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if ! [ -x \"$(command -v clang-format)\" ]; then\necho 'Error: clang-format is not installed. Skipping formatting'\nexit 0\nfi\n\narray=( $(find ../MNetAdSdk \\( -name '*.h' -or -name '*.m' -or -name '*.mm' \\)) )\narray+=( $(find MNetAdSdk \\( -name '*.h' -or -name '*.m' -or -name '*.mm' \\)) )\n\n# loop over it\nfor i in ${array[@]}\ndo\nif [ -f \"$i\" ]\nthen\nclang-format -i -style=\"{BasedOnStyle: LLVM, IndentWidth: 4 ,ColumnLimit: 120,AlignAfterOpenBracket : Align,AlignTrailingComments : true,AlignConsecutiveAssignments : true,PointerAlignment : Right,SpaceAfterCStyleCast : true,SpaceBeforeAssignmentOperators : true,SpaceInEmptyParentheses :  false,SpacesBeforeTrailingComments : 1,SpacesInCStyleCastParentheses : false,ObjCSpaceAfterProperty : true,ReflowComments : true,SortIncludes : true}\" $i\n\nfi\ndone";
+		};
+		982AC3B104B29CA5608B7CE6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MNetAdSdk_Tests/Pods-MNetAdSdk_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Nocilla/Nocilla.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nocilla.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MNetAdSdk_Tests/Pods-MNetAdSdk_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA9102C24C9342E010F6C126 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MNetAdSdk_Example/Pods-MNetAdSdk_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MNALApplink/MNALApplink.framework",
+				"${BUILT_PRODUCTS_DIR}/MNetAdSdk/MNetAdSdk.framework",
+				"${BUILT_PRODUCTS_DIR}/MNetBaseAdSdk/MNetBaseAdSdk.framework",
+				"${BUILT_PRODUCTS_DIR}/MNetJSONModeller/MNetJSONModeller.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast/Toast.framework",
+				"${BUILT_PRODUCTS_DIR}/mopub-ios-sdk/MoPub.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MNALApplink.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MNetAdSdk.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MNetBaseAdSdk.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MNetJSONModeller.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MoPub.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MNetAdSdk_Example/Pods-MNetAdSdk_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6003F586195388D20070C39A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A8D68352154E5BA00D86287 /* MNetDemoConstants.m in Sources */,
+				6003F59E195388D20070C39A /* MNetAppDelegate.m in Sources */,
+				8A8D68382154F3B600D86287 /* MNetShowAdViewController.m in Sources */,
+				6003F5A7195388D20070C39A /* MNetViewController.m in Sources */,
+				6003F59A195388D20070C39A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6003F5AA195388D20070C39A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A840881215B85BA00ED368B /* XCTest+MNetTestUtil.m in Sources */,
+				8A84088A215BB8B800ED368B /* MNetInvalidAdSizeTests.m in Sources */,
+				8A84087B215B7D7D00ED368B /* MNetBannerAdTests.m in Sources */,
+				8A84087E215B829900ED368B /* MNetTestManager.m in Sources */,
+				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+				8A3D60F52175E97E00D77633 /* MNetRequestExtractorTests.m in Sources */,
+				8A840890215BBB8E00ED368B /* MNetBannerFailTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6003F5B4195388D20070C39A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6003F589195388D20070C39A /* MNetAdSdk_Example */;
+			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6003F596195388D20070C39A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6003F597195388D20070C39A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6003F5B8195388D20070C39A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6003F5B9195388D20070C39A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71719F9E1E33DC2100824A3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6003F5BD195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6003F5BE195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6003F5C0195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59F4561C5D22248238F726C8 /* Pods-MNetAdSdk_Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PF48527554;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MNetAdSdk/MNetAdSdk-Prefix.pch";
+				INFOPLIST_FILE = "MNetAdSdk/MNetAdSdk-Info.plist";
+				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = net.media.beta.MNAdSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6003F5C1195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8EE8919AF0563875A805EC7 /* Pods-MNetAdSdk_Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PF48527554;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MNetAdSdk/MNetAdSdk-Prefix.pch";
+				INFOPLIST_FILE = "MNetAdSdk/MNetAdSdk-Info.plist";
+				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = net.media.beta.MNAdSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6003F5C3195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EC663CF601042846FAFEB74 /* Pods-MNetAdSdk_Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MNetAdSdk_Example.app/MNetAdSdk_Example";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6003F5C4195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5C7251E336B4A25DB174D4C /* Pods-MNetAdSdk_Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MNetAdSdk_Example.app/MNetAdSdk_Example";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6003F585195388D10070C39A /* Build configuration list for PBXProject "MNetAdSdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5BD195388D20070C39A /* Debug */,
+				6003F5BE195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "MNetAdSdk_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5C0195388D20070C39A /* Debug */,
+				6003F5C1195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "MNetAdSdk_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5C3195388D20070C39A /* Debug */,
+				6003F5C4195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6003F582195388D10070C39A /* Project object */;
+}

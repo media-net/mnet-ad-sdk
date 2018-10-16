@@ -1,0 +1,41 @@
+{
+    "authors": {
+        "Kunal": "kunal.ch@media.net",
+        "Nithin": "nithin.g@media.net"
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "frameworks": [
+        "CoreLocation",
+        "WebKit",
+        "AdSupport",
+        "MobileCoreServices",
+        "SystemConfiguration",
+        "CoreTelephony",
+        "AVFoundation",
+        "CoreMedia",
+        "Security",
+        "AVKit",
+        "EventKit",
+        "EventKitUI",
+        "Photos",
+        "SafariServices"
+    ],
+    "homepage": "https://github.com/media-net/mnet-ad-sdk.git",
+    "ios": {
+        "vendored_frameworks": "MNetAdSdk/ios/MNetAdSdk.framework"
+    },
+    "license": {
+        "file": "LICENSE",
+        "type": "Copyright"
+    },
+    "name": "MNetAdSdk",
+    "platforms": {
+        "ios": "8.0"
+    },
+    "source": {
+        "git": "https://github.com/media-net/mnet-ad-sdk.git",
+        "tag": "0.1.5"
+    },
+    "summary": "iOS Ad SDK by Media.NET",
+    "version": "0.1.5"
+}

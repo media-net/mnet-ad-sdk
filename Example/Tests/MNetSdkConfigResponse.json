@@ -1,0 +1,540 @@
+{
+    "api_version": 1,
+    "data": {
+        "hb_config": {
+            "mnet_ag_bid_enabled" : false,
+            "default_bids": [
+                             {
+                             "m_bid": 10,
+                             "bidder_id": 10000,
+                             "requrl_re": "http://mnadsdkdemo.beta.media.net.imnapp/1-3-0b21/.*",
+                             "crid": "sample_ad_unit_id1",
+                             "bid_response": {
+                             "id": "1",
+                             "bidderId": 10000,
+                             "bidType": "fpd",
+                             "adtype": "banner",
+                             "adurl": "http://dummy-ad-url.com",
+                             "dfpbid": 7,
+                             "publisherId": "new-default",
+                             "tp": "http://qsearch-a.akamaihd.net/log?logid=kfk&evtid=rtbstl&url=http%3A%2F%2Fhttp%253A%252F%252Fdigitach.net%252F&domain=http&size=300x250&ext_user_id=0&iid=0&auction_id=7b54575cd51c4286921bec5275301b54&ip=172.16.200.248&crid=183840587&b43b=10.0&bc=0.25&rtbW=43&app_dis=0&cc=RU&bname=&bid_type=-1&bmlevel=0<cm_win_macro>",
+                             "size": "320x50",
+                             "h": 50,
+                             "w": 320,
+                             "server_extras": {
+                             "bidder_id": 43,
+                             "mnetSize": "320x50",
+                             "mnetbidPrice": "7.00"
+                             },
+                             "m_bid": 10,
+                             "instl": 1,
+                             "creative_type": "html",
+                             "bidderInfoBean": {
+                             "responseTime": 130
+                             },
+                             "skippable": true
+                             }
+                             },
+                             {
+                             "m_bid": 20,
+                             "bidder_id": 10000,
+                             "requrl_re": "http://[^a-zA-Z]+",
+                             "crid": "sample_ad_unit_id1",
+                             "bid_response": {
+                             "id": "2",
+                             "bidderId": 10000,
+                             "bidType": "fpd",
+                             "adtype": "banner",
+                             "adurl": "http://dummy-ad-url.com",
+                             "dfpbid": 7,
+                             "publisherId": "new-default",
+                             "tp": "http://qsearch-a.akamaihd.net/log?logid=kfk&evtid=rtbstl&url=http%3A%2F%2Fhttp%253A%252F%252Fdigitach.net%252F&domain=http&size=300x250&ext_user_id=0&iid=0&auction_id=7b54575cd51c4286921bec5275301b54&ip=172.16.200.248&crid=183840587&b43b=10.0&bc=0.25&rtbW=43&app_dis=0&cc=RU&bname=&bid_type=-1&bmlevel=0<cm_win_macro>",
+                             "size": "320x50",
+                             "h": 50,
+                             "w": 320,
+                             "server_extras": {
+                             "bidder_id": 43,
+                             "mnetSize": "320x50",
+                             "mnetbidPrice": "7.00"
+                             },
+                             "m_bid": 20,
+                             "instl": 1,
+                             "creative_type": "html",
+                             "bidderInfoBean": {
+                             "responseTime": 130
+                             },
+                             "skippable": true
+                             }
+                             },
+                             {
+                             "m_bid": 20,
+                             "bidder_id": 10000,
+                             "requrl_re": "http://mnadsdkdemo.beta.media.net.imnapp/1-3-0b21/uiviewcontroller?intent=a6e7d5d1b1032af2b708d9f17caf0a27",
+                             "crid": "sample_ad_unit_id1",
+                             "bid_response": {
+                             "id": "3",
+                             "bidderId": 10000,
+                             "bidType": "fpd",
+                             "adtype": "banner",
+                             "adurl": "http://dummy-ad-url.com",
+                             "dfpbid": 7,
+                             "publisherId": "new-default",
+                             "tp": "http://qsearch-a.akamaihd.net/log?logid=kfk&evtid=rtbstl&url=http%3A%2F%2Fhttp%253A%252F%252Fdigitach.net%252F&domain=http&size=300x250&ext_user_id=0&iid=0&auction_id=7b54575cd51c4286921bec5275301b54&ip=172.16.200.248&crid=183840587&b43b=10.0&bc=0.25&rtbW=43&app_dis=0&cc=RU&bname=&bid_type=-1&bmlevel=0<cm_win_macro>",
+                             "size": "320x50",
+                             "h": 50,
+                             "w": 320,
+                             "server_extras": {
+                             "bidder_id": 43,
+                             "mnetSize": "320x50",
+                             "mnetbidPrice": "7.00"
+                             },
+                             "m_bid": 20,
+                             "instl": 1,
+                             "creative_type": "html",
+                             "bidderInfoBean": {
+                             "responseTime": 130
+                             },
+                             "skippable": true
+                             }
+                             },
+                             {
+                             "m_bid": 30,
+                             "bidder_id": 10000,
+                             "requrl_re": ".*",
+                             "crid": "sample_ad_unit_id1",
+                             "bid_response": {
+                             "id": "4",
+                             "bidderId": 10000,
+                             "bidType": "fpd",
+                             "adtype": "banner",
+                             "adurl": "http://dummy-ad-url.com",
+                             "dfpbid": 7,
+                             "publisherId": "new-default",
+                             "tp": "http://qsearch-a.akamaihd.net/log?logid=kfk&evtid=rtbstl&url=http%3A%2F%2Fhttp%253A%252F%252Fdigitach.net%252F&domain=http&size=300x250&ext_user_id=0&iid=0&auction_id=7b54575cd51c4286921bec5275301b54&ip=172.16.200.248&crid=183840587&b43b=10.0&bc=0.25&rtbW=43&app_dis=0&cc=RU&bname=&bid_type=-1&bmlevel=0<cm_win_macro>",
+                             "size": "320x50",
+                             "h": 50,
+                             "w": 320,
+                             "server_extras": {
+                             "bidder_id": 43,
+                             "mnetSize": "320x50",
+                             "mnetbidPrice": "7.00"
+                             },
+                             "m_bid": 30,
+                             "instl": 1,
+                             "creative_type": "html",
+                             "bidderInfoBean": {
+                             "responseTime": 130
+                             },
+                             "skippable": true
+                             }
+                             }
+                             ],
+            "adview_cache_max": 3,
+            "adview_cache_timeout": 30,
+            "adview_reuse_enabled": true,
+            "mnet_inapp_browsing_enabled": true,
+            "is_rtc_enabled": true,
+            "ad_units": [
+                         {
+                         "ad_unit_id": "d6f2811c2cb84b57bbbf3128c08a2165123",
+                         "autorefresh_enabled": true,
+                         "autorefresh_interval": 30,
+                         "crid": "328569603",
+                         "custom_targets": [
+                                            {
+                                            "key": "dedicated",
+                                            "value": "d6f2811c2cb84b57bbbf3128c08a2165123"
+                                            }
+                                            ],
+                         "sizes": [
+                                   "320x50"
+                                   ],
+                         "supported_ads": [
+                                           1
+                                           ]
+                         },
+                         {
+                         "ad_unit_id": "27931f8c98bd452fb9a928f4d73b1630",
+                         "autorefresh_enabled": false,
+                         "autorefresh_interval": 30,
+                         "crid": "212114165",
+                         "custom_targets": [],
+                         "sizes": [
+                                   "320x480"
+                                   ],
+                         "supported_ads": [
+                                           1
+                                           ]
+                         },
+                         {
+                         "ad_unit_id": "/45361917/iosinapptest",
+                         "autorefresh_enabled": false,
+                         "autorefresh_interval": 30,
+                         "crid": "303382071",
+                         "custom_targets": [
+                                            {
+                                            "key": "dedicated",
+                                            "value": "/45361917/iosinapptest"
+                                            }
+                                            ],
+                         "sizes": [
+                                   "320x50"
+                                   ],
+                         "supported_ads": [
+                                           1
+                                           ]
+                         },
+                         {
+                         "ad_unit_id": "customHbAdUnit",
+                         "autorefresh_enabled": false,
+                         "autorefresh_interval": 30,
+                         "crid": "test_ad_unit_1",
+                         "bidder_ids": [
+                                        1,
+                                        2,
+                                        3,
+                                        4,
+                                        5,
+                                        6
+                                        ],
+                         "custom_targets": [
+                                            {
+                                            "key": "d",
+                                            "value": "t"
+                                            }
+                                            ],
+                         "sizes": [
+                                   "320x50"
+                                   ],
+                         "supported_ads": [
+                                           1
+                                           ]
+                         },
+                         {
+                         "ad_unit_id": "",
+                         "autorefresh_enabled": false,
+                         "autorefresh_interval": 30,
+                         "crid": "610416469",
+                         "custom_targets": [
+                                            {
+                                            "key": "d",
+                                            "value": "t"
+                                            }
+                                            ],
+                         "sizes": [
+                                   "300x250"
+                                   ],
+                         "supported_ads": [
+                                           1
+                                           ]
+                         },
+                         {
+                         "ad_unit_id": "/45361917/iostest320*480",
+                         "autorefresh_enabled": false,
+                         "autorefresh_interval": 30,
+                         "crid": "563752245",
+                         "custom_targets": [
+                                            {
+                                            "key": "d",
+                                            "value": "t"
+                                            }
+                                            ],
+                         "sizes": [
+                                   "320x480"
+                                   ],
+                         "supported_ads": [
+                                           1
+                                           ]
+                         },
+                         {
+                         "ad_unit_id": "",
+                         "autorefresh_enabled": false,
+                         "autorefresh_interval": 30,
+                         "crid": "698985027",
+                         "custom_targets": [
+                                            {
+                                            "key": "d",
+                                            "value": "t"
+                                            }
+                                            ],
+                         "sizes": [
+                                   "300x250"
+                                   ],
+                         "supported_ads": [
+                                           1
+                                           ]
+                         },
+                         {
+                         "ad_unit_id": "test_ad_unit_1",
+                         "autorefresh_enabled": false,
+                         "autorefresh_interval": 30,
+                         "crid": "test_ad_unit_1",
+                         "bidder_ids": [
+                                        1,
+                                        2,
+                                        3,
+                                        4,
+                                        5,
+                                        6
+                                        ],
+                         "custom_targets": [
+                                            {
+                                            "key": "dedicated",
+                                            "value": "test_ad_unit_1"
+                                            }
+                                            ],
+                         "sizes": [
+                                   "320x50"
+                                   ],
+                         "supported_ads": [
+                                           1
+                                           ]
+                         },
+                         {
+                         "ad_unit_id": "dummyAdUnitId",
+                         "autorefresh_enabled": true,
+                         "autorefresh_interval": 120,
+                         "crid": "123",
+                         "custom_targets": [
+                                            {
+                                            "key": "d",
+                                            "value": "t"
+                                            }
+                                            ],
+                         "sizes": [
+                                   "300x250",
+                                   "500x500"
+                                   ],
+                         "supported_ads": [
+                                           1
+                                           ]
+                         },
+                         {
+                         "ad_unit_id": "*",
+                         "autorefresh_enabled": false,
+                         "autorefresh_interval": 30,
+                         "crid": "caseSensitiveAdunitId",
+                         "custom_targets": [
+                                            {
+                                            "key": "dedicated",
+                                            "value": "caseSensitiveValue"
+                                            }
+                                            ],
+                         "sizes": [
+                                   "320x50"
+                                   ],
+                         "supported_ads": [
+                                           1
+                                           ]
+                         },
+                         {
+                         "ad_unit_id": "*",
+                         "autorefresh_enabled": false,
+                         "autorefresh_interval": 30,
+                         "crid": "dummy-ad-with-wild-card-1",
+                         "custom_targets": [
+                                            {
+                                            "key": "dedicated",
+                                            "value": "dummy-ad-with-wild-card-1"
+                                            }
+                                            ],
+                         "sizes": [
+                                   "320x50"
+                                   ]
+                         },
+                         {
+                         "ad_unit_id": "*",
+                         "autorefresh_enabled": false,
+                         "autorefresh_interval": 30,
+                         "crid": "cr-id-with-case-insensitive-prefix",
+                         "custom_targets": [
+                                            {
+                                            "key": "dedicated",
+                                            "value": "case-Sensitive-Val-with-case-insensitive-prefix"
+                                            },
+                                            {
+                                            "key": "random-key",
+                                            "prefix": "In-ApP",
+                                            "value": "random-value"
+                                            }
+                                            ],
+                         "sizes": [
+                                   "320x50"
+                                   ]
+                         },
+                         {
+                         "ad_unit_id": "*",
+                         "autorefresh_enabled": false,
+                         "autorefresh_interval": 30,
+                         "crid": "cr-id-with-case-insensitive-prefix-multiple-targets",
+                         "custom_targets": [
+                                            {
+                                            "key": "random-key",
+                                            "prefix": "In-App",
+                                            "value": "random-value"
+                                            },
+                                            {
+                                            "key": "random-key-2",
+                                            "prefix": "In-App",
+                                            "value": "random-value-2"
+                                            },
+                                            {
+                                            "key": "dedicated_1.0",
+                                            "value": "case-Sensitive-Val-with-multiple-targets"
+                                            },
+                                            {
+                                            "key": "dedicated",
+                                            "value": "random-value"
+                                            },
+                                            {
+                                            "key": "random-key",
+                                            "value": "random-value"
+                                            }
+                                            ],
+                         "sizes": [
+                                   "320x50"
+                                   ]
+                         },
+                         {
+                         "ad_unit_id": "*",
+                         "autorefresh_enabled": true,
+                         "autorefresh_interval": 50,
+                         "crid": "expCridForHbConfigFilter",
+                         "custom_targets": [
+                                            {
+                                            "key": "d",
+                                            "value": "t"
+                                            },
+                                            {
+                                            "key": "au",
+                                            "prefix": "in-app",
+                                            "value": "dummyAdUnitId"
+                                            },
+                                            {
+                                            "key": "act",
+                                            "prefix": "in-app",
+                                            "value": "mnviewcontroller"
+                                            }
+                                            ],
+                         "sizes": [
+                                   "320x50"
+                                   ],
+                         "supported_ads": [
+                                           1
+                                           ]
+                         },
+                         {
+                         "ad_unit_id": "*",
+                         "autorefresh_enabled": true,
+                         "autorefresh_interval": 30,
+                         "crid": "expCridForHbConfigFilterForGrid",
+                         "custom_targets": [
+                                            {
+                                            "key": "d",
+                                            "value": "t"
+                                            },
+                                            {
+                                            "key": "view_pos",
+                                            "value": "LEFT-CENTER",
+                                            "prefix": "in-app"
+                                            },
+                                            {
+                                            "key": "au",
+                                            "value": "dummyAdUnitIdForGrid",
+                                            "prefix": "in-app"
+                                            }
+                                            ],
+                         "sizes": [
+                                   "300x250",
+                                   "320x480"
+                                   ],
+                         "supported_ads": [
+                                           1
+                                           ]
+                         },
+                         {
+                         "ad_unit_id": "*",
+                         "autorefresh_enabled": false,
+                         "autorefresh_interval": 30,
+                         "crid": "filterTestListViewPos",
+                         "custom_targets": [
+                                            {
+                                            "key": "listview",
+                                            "value": "test"
+                                            },
+                                            {
+                                            "key": "min_first",
+                                            "value": "0-0",
+                                            "prefix": "in-app"
+                                            },
+                                            {
+                                            "key": "max_first",
+                                            "value": "0-1",
+                                            "prefix": "in-app"
+                                            },
+                                            {
+                                            "key": " min_last",
+                                            "value": "0-3",
+                                            "prefix": "in-app"
+                                            },
+                                            {
+                                            "key": "max_last",
+                                            "value": "0-9",
+                                            "prefix": "in-app"
+                                            },
+                                            {
+                                            "key": "view_pos",
+                                            "value": "LEFT-CENTER",
+                                            "prefix": "in-app"
+                                            }
+                                            ],
+                         "sizes": [
+                                   "300x250"
+                                   ],
+                         "supported_ads": [
+                                           1
+                                           ]
+                         }
+                         ],
+            "enabled": true
+        },
+        "pid": "8CUO15940",
+        "publisher_timeout_settings": {
+            "cbrt": 0,
+            "gfd": 0,
+            "gptrd": 1000,
+            "grd": 0,
+            "hbrt": 0,
+            "li": 0,
+            "ngfd": 0,
+            "prfd": 2,
+            "publisher_id": "8CUO15940",
+            "rbd": 0
+        },
+        "sdk_config": {
+            "mnet_am_mt": "sample_macro",
+            "mnet_config_update_interval": 900000,
+            "mnet_fire_video_events": true,
+            "mnet_show_save_image_dialog": true,
+            "mnet_slot_debug_rate": 0.01,
+            "mnet_adex_on_thirdparty_enabled": false,
+            "refresh_ad_duration_sec": "30",
+            "view_controller_links": {
+                "enabled": true,
+                "link_map": {
+                    "dummyVC1": "http://dummyVC1Link.com",
+                    "dummyVC2": "http://dummyVC2Link.com"
+                }
+            },
+            "use_wkwebview_for_ios_version":[
+                                             "11.0.3",
+                                             "11.0.*",
+                                             "11.*.*",
+                                             "10.12.3"
+                                             ],
+        }
+    },
+    "message": "Config is delivered successfully",
+    "status": 200,
+    "success": true
+}
