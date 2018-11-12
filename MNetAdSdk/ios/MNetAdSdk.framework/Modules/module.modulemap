@@ -2,9 +2,9 @@ framework module MNetAdSdk{
 	header "MNet.h"
 	header "MNetUser.h"
 	header "MNetError.h"
-	header "MNetReward.h"
 	header "MNetAdSize.h"
 	header "MNetAdView.h"
+	header "MNetReward.h"
 	header "MNetRewardedVideo.h"
 	header "MNetInterstitialAd.h"
 }

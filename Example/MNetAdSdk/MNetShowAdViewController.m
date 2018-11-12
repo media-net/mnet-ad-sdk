@@ -169,6 +169,7 @@ static NSArray<NSString *> *testDevicesList;
 
     switch ([self adType]) {
     case BNR: {
+        [self addLoaderToScreen];
         MNetAdView *mnetAdView = [[MNetAdView alloc] init];
         [mnetAdView setAdUnitId:DEMO_MN_AD_UNIT_320x50];
         [mnetAdView setDelegate:self];
@@ -189,6 +190,7 @@ static NSArray<NSString *> *testDevicesList;
     }
 
     case BNR_VIDEO: {
+        [self addLoaderToScreen];
         MNetAdView *mnetAdView = [[MNetAdView alloc] init];
         [mnetAdView setAdUnitId:DEMO_MN_AD_UNIT_300x250_VIDEO];
         [mnetAdView setAdSize:MNetCreateAdSizeFromCGSize(kMNetMediumAdSize)];
@@ -243,6 +245,7 @@ static NSArray<NSString *> *testDevicesList;
     }
 
     case MRAID_BANNER: {
+        [self addLoaderToScreen];
         MNetAdView *mnetAdView = [[MNetAdView alloc] init];
         [mnetAdView setAdUnitId:DEMO_MRAID_AD_UNIT_320x50];
         [mnetAdView setDelegate:self];

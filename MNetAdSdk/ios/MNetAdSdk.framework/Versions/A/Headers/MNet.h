@@ -56,14 +56,14 @@ typedef NS_ENUM(NSInteger, MNetSubjectToGdpr) {
 /// ConsentString - NSString representing the consent string
 /// ConsentStatus - An enum to specify the consent status.
 ///                 Enum options -
-///                 MNetDfpHbGdprConsentStatusUnknown // Consent is UNKNOWN
-///                 MNetDfpHbGdprConsentStatusGiven   // Consented
-///                 MNetDfpHbGdprConsentStatusRevoked // Not consented
+///                 MNetGdprConsentStatusUnknown // Consent is UNKNOWN
+///                 MNetGdprConsentStatusGiven   // Consented
+///                 MNetGdprConsentStatusRevoked // Not consented
 /// SubjectToGdpr - An enum to specify if subject to GDPR
 ///                 Enum options -
-///                 MNetDfpHbSubjectoToGdprUnknown // GDPR applicability is UNKNOWN
-///                 MNetDfpHbSubjectToGdprDisabled // GDPR not applicable
-///                 MNetDfpHbSubjectToGdprEnabled  // GDPR applicable
+///                 MNetSubjectoToGdprUnknown     // GDPR applicability is UNKNOWN
+///                 MNetSubjectToGdprDisabled     // GDPR not applicable
+///                 MNetGdprConsentStatusRevoked  // GDPR applicable
 + (void)updateGdprConsentString:(NSString *)consentString
                   consentStatus:(MNetGdprConsentStatus)status
                   subjectToGdpr:(MNetSubjectToGdpr)subjectToGdpr;

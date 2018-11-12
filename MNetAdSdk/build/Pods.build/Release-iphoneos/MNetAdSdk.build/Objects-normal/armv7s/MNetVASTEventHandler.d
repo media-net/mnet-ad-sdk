@@ -1,34 +1,34 @@
 dependencies: \
-  /var/folders/ms/xg67k5sn16xc7sdr_w3q45840000gn/T/cocoapods-rw01z05i/Pods/MNetAdSdk/MNetAdSdk/Classes/Video/Vast/MNetVASTEventHandler.m \
-  /var/folders/ms/xg67k5sn16xc7sdr_w3q45840000gn/T/cocoapods-rw01z05i/Pods/Target\ Support\ Files/MNetAdSdk/MNetAdSdk-prefix.pch \
-  /var/folders/ms/xg67k5sn16xc7sdr_w3q45840000gn/T/cocoapods-rw01z05i/Pods/MNetAdSdk/MNetAdSdk/Classes/Video/Vast/MNetVASTEventHandler.h \
-  /var/folders/ms/xg67k5sn16xc7sdr_w3q45840000gn/T/cocoapods-rw01z05i/Pods/MNetAdSdk/MNetAdSdk/Classes/Video/Views/MNetPlayerControlView.h \
-  /var/folders/ms/xg67k5sn16xc7sdr_w3q45840000gn/T/cocoapods-rw01z05i/Pods/MNetAdSdk/MNetAdSdk/Classes/Video/Views/MNetFullScreenViewController.h \
-  /var/folders/ms/xg67k5sn16xc7sdr_w3q45840000gn/T/cocoapods-rw01z05i/Pods/MNetAdSdk/MNetAdSdk/Classes/Video/MNetVideoPlayer.h \
-  /var/folders/ms/xg67k5sn16xc7sdr_w3q45840000gn/T/cocoapods-rw01z05i/Pods/MNetAdSdk/MNetAdSdk/Classes/Video/Vast/MNetVastConstants.h \
-  /var/folders/ms/xg67k5sn16xc7sdr_w3q45840000gn/T/cocoapods-rw01z05i/Pods/MNetBaseAdSdk/MNetBaseAdSdk/Base/Common/MNBaseConstants.h \
-  /var/folders/ms/xg67k5sn16xc7sdr_w3q45840000gn/T/cocoapods-rw01z05i/Pods/MNetBaseAdSdk/MNetBaseAdSdk/Base/Network/MNBaseHttpClient.h \
-  /var/folders/ms/xg67k5sn16xc7sdr_w3q45840000gn/T/cocoapods-rw01z05i/Pods/MNetBaseAdSdk/MNetBaseAdSdk/Base/Logging/MNBaseLogger.h \
-  /var/folders/ms/xg67k5sn16xc7sdr_w3q45840000gn/T/cocoapods-rw01z05i/Pods/MNetBaseAdSdk/MNetBaseAdSdk/Base/Configs/MNBaseSdkConfig.h \
-  /var/folders/ms/xg67k5sn16xc7sdr_w3q45840000gn/T/cocoapods-rw01z05i/Pods/MNetBaseAdSdk/MNetBaseAdSdk/Base/Models/Internal/MNBaseConfig.h \
-  /var/folders/ms/xg67k5sn16xc7sdr_w3q45840000gn/T/cocoapods-rw01z05i/Pods/MNetBaseAdSdk/MNetBaseAdSdk/Base/Models/Internal/MNBaseHbConfigData.h \
-  /var/folders/ms/xg67k5sn16xc7sdr_w3q45840000gn/T/cocoapods-rw01z05i/Pods/MNetBaseAdSdk/MNetBaseAdSdk/Base/Models/Internal/MNBaseAdUnitConfigData.h \
-  /var/folders/ms/xg67k5sn16xc7sdr_w3q45840000gn/T/cocoapods-rw01z05i/Pods/MNetBaseAdSdk/MNetBaseAdSdk/Base/Models/Internal/MNBaseCustomTargets.h \
-  /var/folders/ms/xg67k5sn16xc7sdr_w3q45840000gn/T/cocoapods-rw01z05i/Pods/MNetJSONModeller/MNJModeller/Classes/MNJMManager.h \
-  /var/folders/ms/xg67k5sn16xc7sdr_w3q45840000gn/T/cocoapods-rw01z05i/Pods/MNetJSONModeller/MNJModeller/Classes/MNJMMapperProtocol.h \
-  /var/folders/ms/xg67k5sn16xc7sdr_w3q45840000gn/T/cocoapods-rw01z05i/Pods/MNetJSONModeller/MNJModeller/Classes/MNJMCollectionsInfo.h \
-  /var/folders/ms/xg67k5sn16xc7sdr_w3q45840000gn/T/cocoapods-rw01z05i/Pods/MNetJSONModeller/MNJModeller/Classes/MNJMBoolean.h \
-  /var/folders/ms/xg67k5sn16xc7sdr_w3q45840000gn/T/cocoapods-rw01z05i/Pods/MNetBaseAdSdk/MNetBaseAdSdk/Base/Models/Internal/MNBaseDefaultBid.h \
-  /var/folders/ms/xg67k5sn16xc7sdr_w3q45840000gn/T/cocoapods-rw01z05i/Pods/MNetBaseAdSdk/MNetBaseAdSdk/Base/Models/Internal/MNBaseBidResponse.h \
-  /var/folders/ms/xg67k5sn16xc7sdr_w3q45840000gn/T/cocoapods-rw01z05i/Pods/MNetBaseAdSdk/MNetBaseAdSdk/Base/Models/Internal/MNBaseBidResponseExtension.h \
-  /var/folders/ms/xg67k5sn16xc7sdr_w3q45840000gn/T/cocoapods-rw01z05i/Pods/MNetBaseAdSdk/MNetBaseAdSdk/Base/Models/Internal/MNBaseLoaders.h \
-  /var/folders/ms/xg67k5sn16xc7sdr_w3q45840000gn/T/cocoapods-rw01z05i/Pods/MNetBaseAdSdk/MNetBaseAdSdk/Base/Models/Internal/MNBaseDefaultLoaders.h \
-  /var/folders/ms/xg67k5sn16xc7sdr_w3q45840000gn/T/cocoapods-rw01z05i/Pods/MNetBaseAdSdk/MNetBaseAdSdk/Base/Models/Internal/MNBasePublisherTimeoutSettings.h \
-  /var/folders/ms/xg67k5sn16xc7sdr_w3q45840000gn/T/cocoapods-rw01z05i/Pods/MNetBaseAdSdk/MNetBaseAdSdk/Base/Models/Internal/MNBaseSdkConfigData.h \
-  /var/folders/ms/xg67k5sn16xc7sdr_w3q45840000gn/T/cocoapods-rw01z05i/Pods/MNetBaseAdSdk/MNetBaseAdSdk/Base/Models/Internal/MNBaseSdkConfigVCLinks.h \
-  /var/folders/ms/xg67k5sn16xc7sdr_w3q45840000gn/T/cocoapods-rw01z05i/Pods/MNetBaseAdSdk/MNetBaseAdSdk/Base/Util/MNBaseUtil.h \
-  /var/folders/ms/xg67k5sn16xc7sdr_w3q45840000gn/T/cocoapods-rw01z05i/Pods/MNetBaseAdSdk/MNetBaseAdSdk/Base/Models/Internal/MNBaseGeoLocation.h \
-  /var/folders/ms/xg67k5sn16xc7sdr_w3q45840000gn/T/cocoapods-rw01z05i/Pods/MNetAdSdk/MNetAdSdk/Classes/Video/Utils/MNetVASTVideoConfig.h \
-  /var/folders/ms/xg67k5sn16xc7sdr_w3q45840000gn/T/cocoapods-rw01z05i/Pods/MNetAdSdk/MNetAdSdk/Classes/Video/Models/MNetMediaFile.h \
-  /var/folders/ms/xg67k5sn16xc7sdr_w3q45840000gn/T/cocoapods-rw01z05i/Pods/MNetAdSdk/MNetAdSdk/Classes/Video/Vast/MNetVASTMapper.h \
-  /var/folders/ms/xg67k5sn16xc7sdr_w3q45840000gn/T/cocoapods-rw01z05i/Pods/MNetAdSdk/MNetAdSdk/Classes/Video/Models/MNetVast.h
+  /var/folders/ms/xg67k5sn16xc7sdr_w3q45840000gn/T/cocoapods-td5euxkz/Pods/MNetAdSdk/MNetAdSdk/Classes/Video/Vast/MNetVASTEventHandler.m \
+  /var/folders/ms/xg67k5sn16xc7sdr_w3q45840000gn/T/cocoapods-td5euxkz/Pods/Target\ Support\ Files/MNetAdSdk/MNetAdSdk-prefix.pch \
+  /var/folders/ms/xg67k5sn16xc7sdr_w3q45840000gn/T/cocoapods-td5euxkz/Pods/MNetAdSdk/MNetAdSdk/Classes/Video/Vast/MNetVASTEventHandler.h \
+  /var/folders/ms/xg67k5sn16xc7sdr_w3q45840000gn/T/cocoapods-td5euxkz/Pods/MNetAdSdk/MNetAdSdk/Classes/Video/Views/MNetPlayerControlView.h \
+  /var/folders/ms/xg67k5sn16xc7sdr_w3q45840000gn/T/cocoapods-td5euxkz/Pods/MNetAdSdk/MNetAdSdk/Classes/Video/Views/MNetFullScreenViewController.h \
+  /var/folders/ms/xg67k5sn16xc7sdr_w3q45840000gn/T/cocoapods-td5euxkz/Pods/MNetAdSdk/MNetAdSdk/Classes/Video/MNetVideoPlayer.h \
+  /var/folders/ms/xg67k5sn16xc7sdr_w3q45840000gn/T/cocoapods-td5euxkz/Pods/MNetAdSdk/MNetAdSdk/Classes/Video/Vast/MNetVastConstants.h \
+  /var/folders/ms/xg67k5sn16xc7sdr_w3q45840000gn/T/cocoapods-td5euxkz/Pods/MNetBaseAdSdk/MNetBaseAdSdk/Base/Common/MNBaseConstants.h \
+  /var/folders/ms/xg67k5sn16xc7sdr_w3q45840000gn/T/cocoapods-td5euxkz/Pods/MNetBaseAdSdk/MNetBaseAdSdk/Base/Network/MNBaseHttpClient.h \
+  /var/folders/ms/xg67k5sn16xc7sdr_w3q45840000gn/T/cocoapods-td5euxkz/Pods/MNetBaseAdSdk/MNetBaseAdSdk/Base/Logging/MNBaseLogger.h \
+  /var/folders/ms/xg67k5sn16xc7sdr_w3q45840000gn/T/cocoapods-td5euxkz/Pods/MNetBaseAdSdk/MNetBaseAdSdk/Base/Configs/MNBaseSdkConfig.h \
+  /var/folders/ms/xg67k5sn16xc7sdr_w3q45840000gn/T/cocoapods-td5euxkz/Pods/MNetBaseAdSdk/MNetBaseAdSdk/Base/Models/Internal/MNBaseConfig.h \
+  /var/folders/ms/xg67k5sn16xc7sdr_w3q45840000gn/T/cocoapods-td5euxkz/Pods/MNetBaseAdSdk/MNetBaseAdSdk/Base/Models/Internal/MNBaseHbConfigData.h \
+  /var/folders/ms/xg67k5sn16xc7sdr_w3q45840000gn/T/cocoapods-td5euxkz/Pods/MNetBaseAdSdk/MNetBaseAdSdk/Base/Models/Internal/MNBaseAdUnitConfigData.h \
+  /var/folders/ms/xg67k5sn16xc7sdr_w3q45840000gn/T/cocoapods-td5euxkz/Pods/MNetBaseAdSdk/MNetBaseAdSdk/Base/Models/Internal/MNBaseCustomTargets.h \
+  /var/folders/ms/xg67k5sn16xc7sdr_w3q45840000gn/T/cocoapods-td5euxkz/Pods/MNetJSONModeller/MNJModeller/Classes/MNJMManager.h \
+  /var/folders/ms/xg67k5sn16xc7sdr_w3q45840000gn/T/cocoapods-td5euxkz/Pods/MNetJSONModeller/MNJModeller/Classes/MNJMMapperProtocol.h \
+  /var/folders/ms/xg67k5sn16xc7sdr_w3q45840000gn/T/cocoapods-td5euxkz/Pods/MNetJSONModeller/MNJModeller/Classes/MNJMCollectionsInfo.h \
+  /var/folders/ms/xg67k5sn16xc7sdr_w3q45840000gn/T/cocoapods-td5euxkz/Pods/MNetJSONModeller/MNJModeller/Classes/MNJMBoolean.h \
+  /var/folders/ms/xg67k5sn16xc7sdr_w3q45840000gn/T/cocoapods-td5euxkz/Pods/MNetBaseAdSdk/MNetBaseAdSdk/Base/Models/Internal/MNBaseDefaultBid.h \
+  /var/folders/ms/xg67k5sn16xc7sdr_w3q45840000gn/T/cocoapods-td5euxkz/Pods/MNetBaseAdSdk/MNetBaseAdSdk/Base/Models/Internal/MNBaseBidResponse.h \
+  /var/folders/ms/xg67k5sn16xc7sdr_w3q45840000gn/T/cocoapods-td5euxkz/Pods/MNetBaseAdSdk/MNetBaseAdSdk/Base/Models/Internal/MNBaseBidResponseExtension.h \
+  /var/folders/ms/xg67k5sn16xc7sdr_w3q45840000gn/T/cocoapods-td5euxkz/Pods/MNetBaseAdSdk/MNetBaseAdSdk/Base/Models/Internal/MNBaseLoaders.h \
+  /var/folders/ms/xg67k5sn16xc7sdr_w3q45840000gn/T/cocoapods-td5euxkz/Pods/MNetBaseAdSdk/MNetBaseAdSdk/Base/Models/Internal/MNBaseDefaultLoaders.h \
+  /var/folders/ms/xg67k5sn16xc7sdr_w3q45840000gn/T/cocoapods-td5euxkz/Pods/MNetBaseAdSdk/MNetBaseAdSdk/Base/Models/Internal/MNBasePublisherTimeoutSettings.h \
+  /var/folders/ms/xg67k5sn16xc7sdr_w3q45840000gn/T/cocoapods-td5euxkz/Pods/MNetBaseAdSdk/MNetBaseAdSdk/Base/Models/Internal/MNBaseSdkConfigData.h \
+  /var/folders/ms/xg67k5sn16xc7sdr_w3q45840000gn/T/cocoapods-td5euxkz/Pods/MNetBaseAdSdk/MNetBaseAdSdk/Base/Models/Internal/MNBaseSdkConfigVCLinks.h \
+  /var/folders/ms/xg67k5sn16xc7sdr_w3q45840000gn/T/cocoapods-td5euxkz/Pods/MNetBaseAdSdk/MNetBaseAdSdk/Base/Util/MNBaseUtil.h \
+  /var/folders/ms/xg67k5sn16xc7sdr_w3q45840000gn/T/cocoapods-td5euxkz/Pods/MNetBaseAdSdk/MNetBaseAdSdk/Base/Models/Internal/MNBaseGeoLocation.h \
+  /var/folders/ms/xg67k5sn16xc7sdr_w3q45840000gn/T/cocoapods-td5euxkz/Pods/MNetAdSdk/MNetAdSdk/Classes/Video/Utils/MNetVASTVideoConfig.h \
+  /var/folders/ms/xg67k5sn16xc7sdr_w3q45840000gn/T/cocoapods-td5euxkz/Pods/MNetAdSdk/MNetAdSdk/Classes/Video/Models/MNetMediaFile.h \
+  /var/folders/ms/xg67k5sn16xc7sdr_w3q45840000gn/T/cocoapods-td5euxkz/Pods/MNetAdSdk/MNetAdSdk/Classes/Video/Vast/MNetVASTMapper.h \
+  /var/folders/ms/xg67k5sn16xc7sdr_w3q45840000gn/T/cocoapods-td5euxkz/Pods/MNetAdSdk/MNetAdSdk/Classes/Video/Models/MNetVast.h
